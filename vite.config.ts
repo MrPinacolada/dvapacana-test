@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: "/dvapacana-test/",
   optimizeDeps: {
     include: ["vue"],
   },
